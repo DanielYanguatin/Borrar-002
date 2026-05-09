@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       - name: Ejecutar pruebas
-        run: npm test -- --watch=false --browsers=ChromeHeadlessCI
+        run: npm test -- --watch=false
 
       - name: Finalizacion del trabajo
         run: echo "Proceso finalizado correctamente"
